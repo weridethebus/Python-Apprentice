@@ -19,9 +19,9 @@ tina = turtle.Turtle()
 
 i = 0
 
-for i in range(50):
+for i in range(75):
     print('loop iteration', i)
-    tina.forward(i * 2.25)
+    tina.forward(i * 1.75)
     tina.left(72)
 
 turtle.exitonclick() 
