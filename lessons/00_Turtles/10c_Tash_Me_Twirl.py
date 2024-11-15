@@ -1,11 +1,19 @@
+import turtle as turtle
+turtle.setup( width = 1375, height = 600, startx = 0, starty = 0)
+rootbeer = turtle.Turtle()
+rootbeer.speed(250)
 
-""" Tash Me with a Twirl
- 
-Update your Tash Me Click program ( copy your old program here )
-so the moustache will twirl when you click on it. 
+whatever = 180.001
 
-Hint: See 08a_More Turtle Programs, section 'Click on the Turtle'
-"""
 
-... # Your code here
+def ninja_star():
+    for i in range(10000):
+        print("loop iteration", i)
+        rootbeer. forward(250)
+        rootbeer. left(whatever)
 
+
+ninja_star()
+
+
+turtle. exitonclick
