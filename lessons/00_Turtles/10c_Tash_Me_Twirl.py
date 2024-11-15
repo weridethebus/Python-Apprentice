@@ -3,7 +3,7 @@ turtle.setup( width = 1375, height = 600, startx = 0, starty = 0)
 rootbeer = turtle.Turtle()
 rootbeer.speed(250)
 
-whatever = 180.001
+whatever = 180.
 
 
 def ninja_star():
