@@ -3,9 +3,9 @@ turtle.setup( width = 1450, height = 700, startx = 0, starty = 0)
 rootbeer = turtle.Turtle()
 rootbeer.speed(0)
 
-rootbeer.pencolor("blue")
+rootbeer.pencolor("red")
 
-sides = 4
+sides = 3
 angle = 360/sides
 
 def crazy_spiral():

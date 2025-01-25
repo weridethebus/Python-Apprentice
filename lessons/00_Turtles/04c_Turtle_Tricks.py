@@ -1,41 +1,17 @@
-"""
-For this program, you will tell Tina the Turtle to draw 
-multiple shapes.
 
-Draw two circles, filled with different colors, 
-and in different places on the screen. 
-
-You should look at the previous program, 02_Meet_TIna.py
-to see how to use the turtle commands.
-
-"""
-
-# These lines are needed in most turtle programs
 import turtle                           # Tell Python we want to work with the turtle
-turtle.setup (width=600, height=400, startx = 0, starty = 0)    # Set the size of the window
-tina = turtle.Turtle()                  # Create a turtle named tina
+turtle.setup (width=1450, height=700, starty = 0, startx = 0)    # Set the size of the window
+soda = turtle.Turtle()                  # Create a turtle named tina
+soda.speed(0)
 
-# Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
-# Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
+def slowest_circ():
+    for i in range(500):
+        soda.forward(1)
+        soda.left(i*189.000000000001)
 
-
-... # Your code here
-tina.color("blue", "green")
-tina.begin_fill()
-tina.circle(50)
-tina.end_fill()
-
-tina.penup()
-tina.goto(100, 100)
-tina.pendown()
-
-tina.color("green", "blue")
-tina.begin_fill()
-tina.circle(50)
-tina.end_fill()
+slowest_circ()
 
 
-turtle.exitonclick()                    # Close the window when we click on it
 
 
-# Dont forget to check in your code!
+turtle.exitonclick()
