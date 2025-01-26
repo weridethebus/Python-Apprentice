@@ -5,9 +5,9 @@ soda = turtle.Turtle()                  # Create a turtle named tina
 soda.speed(0)
 
 def slowest_circ():
-    for i in range(500):
-        soda.forward(1)
-        soda.left(i*189.000000000001)
+    for i in range(750):
+        soda.forward(i)
+        soda.left(i*180.001)
 
 slowest_circ()
 
