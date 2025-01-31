@@ -1,5 +1,5 @@
 import turtle
-turtle.setup(525, 250, startx = 0, starty = 0)
+turtle.setup(1475, 750, startx = 0, starty = 0)
 tina = turtle.Turtle()
 tina.speed(1000000000000000000000000000000000000000000)
 

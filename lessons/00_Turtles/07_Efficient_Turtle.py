@@ -7,7 +7,7 @@ hept = 7
 oct = 8
 nona = 9
 deca = 10
-sides = pent
+sides = tri
 angle = 360/sides
 i = 0
 
@@ -20,7 +20,7 @@ def draw_polygon(sides):
 
     for i in range(100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000):
         tina.forward(i*1.30)
-        tina.left(angle)
+        tina.left(angle+0.1)
         print("loop iteration", i)
         
         
