@@ -1,7 +1,11 @@
 import turtle
-turtle.setup(1475, 750, startx = 0, starty = 0)
+turtle.setup(1375, 750, startx = 0, starty = 0)
 tina = turtle.Turtle()
-tina.speed(1000000000000000000000000000000000000000000)
+tina.speed(000000000000000000000000000000000000000000)
+
+tina.penup()
+tina.goto(0, -375)
+tina.pendown()
 
 def circle_fractal():
     for i in range(10000000000000000000000000000000000000000000000000000000000000000000):
