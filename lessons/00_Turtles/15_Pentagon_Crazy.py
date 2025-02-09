@@ -17,24 +17,28 @@ window = turtle.Screen()
 window.bgcolor("black")
 window.setup( width = 1450, height = 700, startx = 0, starty = 0)
 
-colors = ("red", "orange", "yellow", "green", "blue", "indigo", "violet", "magenta")
+colors = ("red", "orange", "yellow", "chartreuse", "green", "cyan", "blue", "indigo", "purple")
 
 myTurtle = turtle.Turtle()
 myTurtle.shape("turtle")
 myTurtle.speed(0)
-myTurtle.width(999999999999999999999999999999999999999999999999)
+myTurtle.width(1)
 
-sides = 4
+sides = 10.5
+
 angle = 360 / sides
 
-for i in range(360):
+myTurtle.hideturtle()
+
+for i in range(999999999999999999999999999999999999999999999999):
     if i == 100:
-        myTurtle.width(999999999999999999999999999999999999999999999999999999)
+        myTurtle.width(2)
     if i == 200:
-        myTurtle.width(10099999999999999999999999999999999999999999999999999999)
+        myTurtle.width(3)
     myTurtle.pencolor(getNextColor(i))
-    myTurtle.forward(i)
-    myTurtle.right(angle + 0.1)
+    myTurtle.forward(i*1)
+    myTurtle.right(angle)
+    print("iteration number ", i)
 
 myTurtle.hideturtle()
 

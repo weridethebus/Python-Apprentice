@@ -7,7 +7,7 @@ hept = 7
 oct = 8
 nona = 9
 deca = 10
-sides = tri
+sides = hex
 angle = 360/sides
 i = 0
 

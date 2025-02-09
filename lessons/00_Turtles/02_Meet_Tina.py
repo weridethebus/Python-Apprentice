@@ -14,7 +14,7 @@ actualFixedDiscount = float(price - fixedDiscount)
 shippingDiscount = float(price)
 
 #This calculates the better discount.
-if actualPercentDiscount < actualFixedDiscount and shippingDiscount:
+if actualPercentDiscount <= actualFixedDiscount and shippingDiscount:
     print("Use the percentage discount")
 
 if actualFixedDiscount < actualPercentDiscount and shippingDiscount:
