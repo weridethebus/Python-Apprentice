@@ -36,6 +36,8 @@ operation = simpledialog.askstring("Your operation", "What is the operation you 
 # Use if-elif-else statements to provide the desired math operation on the numbers and display the result.
 # If the user enters an unknown operation, display an error message. ( use messagebox.showerror()
 
+
+#For this program you will want to enter one of the red values below for the operation.
 if operation == "multiplication":
     print (first_num * second_num)
 elif operation == "exponentation":
