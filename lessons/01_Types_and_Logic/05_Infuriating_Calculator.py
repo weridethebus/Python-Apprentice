@@ -31,27 +31,29 @@ window.withdraw()
 first_num = simpledialog.askfloat("Your first number", "What is your first muber?")
 # Ask the user for the second number
 second_num = simpledialog.askfloat("Your second number", "What is your second number?")
-# Ask the user for the operation
-operation = simpledialog.askstring("Your operation", "What is the operation you are going to use?")
+#Ask the user for a third number(if any)
+third_num = simpledialog.askfloat("Your third number", "What is your third number?")
+
+operation = simpledialog.askstring("Your operation if dividing/exponents, third num is 1 if there is no third num", "What is the operation you are going to use?")
 # Use if-elif-else statements to provide the desired math operation on the numbers and display the result.
 # If the user enters an unknown operation, display an error message. ( use messagebox.showerror()
 
 
 #For this program you will want to enter one of the red values below for the operation.
 if operation == "multiplication":
-    print (first_num * second_num)
+    print (first_num * second_num * third_num)
 elif operation == "exponentation":
-    print (first_num ** second_num)
+    print (first_num ** second_num ** third_num)
 elif operation == "division":
-    print (first_num / second_num)
+    print (first_num / second_num / third_num)
 elif operation == "floor division":
-    print (first_num // second_num)
+    print (first_num // second_num // third_num)
 elif operation == "modulus":
-    print(first_num % second_num)
+    print(first_num % second_num % third_num)
 elif operation == "addition":
-    print(first_num + second_num)
+    print(first_num + second_num + third_num)
 elif operation == "subtraction":
-    print(first_num - second_num)
+    print(first_num - second_num - third_num)
 else:
     messagebox.showerror()
  
