@@ -1,17 +1,11 @@
-"""
-Use the words in the list to create a story. 
-
-Use indexing to get words from the list, then 
-append them to the story
-
-"""
-
-words = ['Once', '👦', 'upon', '🐕', 'park', 'met', 'with', 'a', 'the', 
-    'time', 'to', 'who', '🐈', '👧', 'and', 'went', 'had', 'play', '⚽.', 'they']
-
-story = []
-
-# Create a story using the words in the list
-
-# Display the story to the user
-print(' '.join(story))
+#PASSWORDGUESSR
+import random
+pin = "123"
+n = len(pin) 
+for i in range(10**n):
+    num =str(10**n+i)[1:]
+    if num == pin:
+        print( "your pin is "+ pin)
+        break
+    else:
+        print("wrong!")
