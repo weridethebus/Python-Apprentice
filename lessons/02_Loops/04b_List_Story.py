@@ -1,6 +1,8 @@
-#PASSWORDGUESSR
+#PINGUESSR
 import random
-pin = "123"
+import time
+start = time.time()
+pin = "8"
 n = len(pin) 
 for i in range(10**n):
     num =str(10**n+i)[1:]
@@ -9,3 +11,5 @@ for i in range(10**n):
         break
     else:
         print("wrong!")
+end = time.time
+print(end)

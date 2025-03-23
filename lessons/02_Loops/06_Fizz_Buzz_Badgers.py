@@ -17,7 +17,7 @@ Your program should print 4 badgers.
 """
 
 
-for i in range(1, 31): # Change only this line
+for i in range(5, 51, 15): # Change only this line
 
     # Don't change anything below this line
     if i % 15 == 0:
@@ -32,3 +32,5 @@ for i in range(1, 31): # Change only this line
 
 # hint: run the program once and look at the numbers that are printed.
 # Maybe iterate over those numbers.
+
+#I did it!
